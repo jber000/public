@@ -91,7 +91,7 @@ public class ImporterMain extends VerticalLayout {
 		@Override
 		public void buttonClick(ClickEvent event) {
 			try {
-				ImporterService is = new ImporterService("Instrument Symbology",
+				ImporterService is = new ImporterService("?????",
 						xmiMetaFile.getStreamSource().getStream(), xmiTransFile.getStreamSource().getStream(),
 						xmiUMLFile.getStreamSource().getStream(), xmiUMLFile2.getStreamSource().getStream());
 				List<Element> els = is.getParsedElement();
